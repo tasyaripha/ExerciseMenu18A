@@ -29,7 +29,80 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.062" />
 
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp">
 
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="134dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/un"
+                    android:textColor="@color/label"
+                    android:textSize="20sp">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/editUN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:ems="12"
+                    android:hint="Masukkan Username"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/txt">
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/ps"
+                    android:textColor="@color/label"
+                    android:textSize="20sp">
+                </TextView>
+                <EditText
+                    android:id="@+id/editPass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:ems="12"
+                    android:hint="Masukkan Password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/txt">
+                </EditText>
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnok"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="140dp"
+            android:background="@color/btn"
+            android:text="@string/btn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.971"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.971" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
