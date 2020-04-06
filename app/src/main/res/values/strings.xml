@@ -4,4 +4,6 @@
     <string name="un">Username</string>
     <string name="ps">Password</string>
     <string name="btn">Sign-In</string>
+    <string name="mh">Menu Hitung Bangun Datar</string>
+
 </resources>
